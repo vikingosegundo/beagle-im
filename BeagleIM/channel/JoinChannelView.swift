@@ -129,7 +129,7 @@ class JoinChannelView: NSView, OpenChannelViewControllerTabView, NSTableViewDele
                         }
                     } else {
                         let room = channel.jid;
-                        _ = mucModule.join(roomName: room.localPart!, mucServer: room.domain, nickname: nickname);
+                        _ = try? mucModule.join(roomName: room.localPart!, mucServer: room.domain, nickname: nickname);
                         PEPBookmarksModule.updateOrAdd(for: account, bookmark: Bookmarks.Conference(name: room.localPart!, jid: JID(room), autojoin: true, nick: nickname, password: password));
                         DispatchQueue.main.async {
                             completionHandler(true);

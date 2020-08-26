@@ -89,7 +89,7 @@ class JoinGroupchatViewController: NSViewController, NSTextFieldDelegate {
             return;
         }
         
-        _ = mucModule.join(roomName: roomName, mucServer: mucServer, nickname: nickname, password: isPasswordRequired ? self.passwordField.stringValue : nil);
+        _ = try? mucModule.join(roomName: roomName, mucServer: mucServer, nickname: nickname, password: isPasswordRequired ? self.passwordField.stringValue : nil);
         
         self.close();
     }

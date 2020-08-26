@@ -218,7 +218,7 @@ class MucEventHandler: XmppServiceEventHandler {
                     guard let nick = bookmark.nick, bookmark.autojoin else {
                         return;
                     }
-                    _ = mucModule.join(roomName: bookmark.jid.localPart!, mucServer: bookmark.jid.domain, nickname: nick, password: bookmark.password);
+                    _ = try?  mucModule.join(roomName: bookmark.jid.localPart!, mucServer: bookmark.jid.domain, nickname: nick, password: bookmark.password);
                 });
         default:
             break;

@@ -321,7 +321,7 @@ class OpenGroupchatController: NSViewController, NSTextFieldDelegate, NSTableVie
                 guard let mucModule: MucModule = XmppService.instance.getClient(for: self.account)?.modulesManager.getModule(MucModule.ID) else {
                     return;
                 }
-                _ = mucModule.join(roomName: room.localPart!, mucServer: room.domain, nickname: nickname);
+                _ = try? mucModule.join(roomName: room.localPart!, mucServer: room.domain, nickname: nickname);
                 PEPBookmarksModule.updateOrAdd(for: self.account, bookmark: Bookmarks.Conference(name: room.localPart!, jid: JID(room), autojoin: true, nick: nickname, password: self.password));
                 DispatchQueue.main.async {
                     self.close();
@@ -344,7 +344,7 @@ class OpenGroupchatController: NSViewController, NSTextFieldDelegate, NSTableVie
                             guard let mucModule: MucModule = XmppService.instance.getClient(for: self.account)?.modulesManager.getModule(MucModule.ID) else {
                                 return;
                             }
-                            _ = mucModule.join(roomName: room.localPart!, mucServer: room.domain, nickname: nickname, password: password);
+                            _ = try? mucModule.join(roomName: room.localPart!, mucServer: room.domain, nickname: nickname, password: password);
                             
                             PEPBookmarksModule.updateOrAdd(for: self.account, bookmark: Bookmarks.Conference(name: room.localPart!, jid: JID(room), autojoin: true, nick: nickname, password: password));
                             self.close();

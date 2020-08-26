@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		539157348DB52EAE8FA10AA6 /* Pods_BeagleIM_BeagleIMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD757E41230D68C02B7114AA /* Pods_BeagleIM_BeagleIMUITests.framework */; };
+		647B65DA24F6A71B009436E2 /* TigaseSwiftOMEMO in Frameworks */ = {isa = PBXBuildFile; productRef = 647B65D924F6A71B009436E2 /* TigaseSwiftOMEMO */; };
+		647B65DD24F6A72C009436E2 /* TigaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 647B65DC24F6A72C009436E2 /* TigaseSwift */; };
+		A8861FBE670BE111A172036B /* Pods_BeagleIMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F25231730D7AC4BB6654A /* Pods_BeagleIMTests.framework */; };
+		BBCE1E0B3F25FCB53EE9505B /* Pods_BeagleIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2D60243EA004D61234AC3D /* Pods_BeagleIM.framework */; };
 		FE02DD11225B8D1100FA08EB /* db-schema-3.sql in Resources */ = {isa = PBXBuildFile; fileRef = FE02DD10225B8D1100FA08EB /* db-schema-3.sql */; };
 		FE02DD13225BC33F00FA08EB /* DBOMEMOStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE02DD12225BC33F00FA08EB /* DBOMEMOStore.swift */; };
 		FE0C817F2257B48400948C41 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDC03172257B2B400F24BF4 /* Settings.storyboard */; };
@@ -145,7 +150,6 @@
 		FEB994AF2413A03D00B8E7A7 /* ChannelEditConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB994AE2413A03D00B8E7A7 /* ChannelEditConfigViewController.swift */; };
 		FEB994B1241418FE00B8E7A7 /* InviteToChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB994B0241418FE00B8E7A7 /* InviteToChannelViewController.swift */; };
 		FEB994B324154C1F00B8E7A7 /* ChannelManageParticipants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB994B224154C1F00B8E7A7 /* ChannelManageParticipants.swift */; };
-		FEB9EA2B2440912B00435937 /* TigaseSwiftOMEMO in Frameworks */ = {isa = PBXBuildFile; productRef = FEB9EA2A2440912B00435937 /* TigaseSwiftOMEMO */; };
 		FEC336ED2408141700EC1A0D /* ChannelParticipantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC336EC2408141700EC1A0D /* ChannelParticipantsViewController.swift */; };
 		FEC336EF2408FCD800EC1A0D /* ParticipantsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC336EE2408FCD800EC1A0D /* ParticipantsButton.swift */; };
 		FEC336F3240A785400EC1A0D /* ChannelAwareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC336F2240A785400EC1A0D /* ChannelAwareProtocol.swift */; };
@@ -180,8 +184,6 @@
 		FEEF25362266303A00202B28 /* OMEMOIdentititesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF25352266303A00202B28 /* OMEMOIdentititesTableView.swift */; };
 		FEEF25392266528E00202B28 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF25382266528E00202B28 /* ContactDetailsViewController.swift */; };
 		FEF5C3FA22632C0000889863 /* OpenSSL_AES_GCM_Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5C3F922632C0000889863 /* OpenSSL_AES_GCM_Engine.swift */; };
-		FEF5C3FF22632CDE00889863 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5C3FE22632CDE00889863 /* openssl.framework */; };
-		FEF5C40022632CDE00889863 /* openssl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5C3FE22632CDE00889863 /* openssl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FEF844742173B9DC0067B005 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF844732173B9DC0067B005 /* Markdown.swift */; };
 		FEF8BED2216A6761001DA755 /* InviteToGroupchatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF8BED1216A6761001DA755 /* InviteToGroupchatController.swift */; };
 		FEF9CE1D2082765000B09B6C /* db-schema-1.sql in Resources */ = {isa = PBXBuildFile; fileRef = FEF9CE1C2082765000B09B6C /* db-schema-1.sql */; };
@@ -221,7 +223,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FEF5C40022632CDE00889863 /* openssl.framework in Embed Frameworks */,
 				FE2DEDA123C5FC0F00AEF14F /* WebRTC.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -230,6 +231,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		267757AC5022F0BE039B0258 /* Pods-BeagleIM-BeagleIMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleIM-BeagleIMUITests.release.xcconfig"; path = "Target Support Files/Pods-BeagleIM-BeagleIMUITests/Pods-BeagleIM-BeagleIMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		308EA8B42E7A62EF22F1471F /* Pods-BeagleIMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleIMTests.debug.xcconfig"; path = "Target Support Files/Pods-BeagleIMTests/Pods-BeagleIMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31CC19C4E3532F61F6E8ED35 /* Pods-BeagleIM-BeagleIMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleIM-BeagleIMUITests.debug.xcconfig"; path = "Target Support Files/Pods-BeagleIM-BeagleIMUITests/Pods-BeagleIM-BeagleIMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F4D8E7EDF477817719E7485 /* Pods-BeagleIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleIM.release.xcconfig"; path = "Target Support Files/Pods-BeagleIM/Pods-BeagleIM.release.xcconfig"; sourceTree = "<group>"; };
+		8B2D60243EA004D61234AC3D /* Pods_BeagleIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeagleIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFDACCC546B75368948D3FE /* Pods-BeagleIMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleIMTests.release.xcconfig"; path = "Target Support Files/Pods-BeagleIMTests/Pods-BeagleIMTests.release.xcconfig"; sourceTree = "<group>"; };
+		B17F25231730D7AC4BB6654A /* Pods_BeagleIMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeagleIMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD73B17D7AC46E7616033B9E /* Pods-BeagleIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleIM.debug.xcconfig"; path = "Target Support Files/Pods-BeagleIM/Pods-BeagleIM.debug.xcconfig"; sourceTree = "<group>"; };
+		CD757E41230D68C02B7114AA /* Pods_BeagleIM_BeagleIMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeagleIM_BeagleIMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE02DD10225B8D1100FA08EB /* db-schema-3.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "db-schema-3.sql"; sourceTree = "<group>"; };
 		FE02DD12225BC33F00FA08EB /* DBOMEMOStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBOMEMOStore.swift; sourceTree = "<group>"; };
 		FE10BCE823FAA47800E214F3 /* InvitationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationGroup.swift; sourceTree = "<group>"; };
@@ -409,9 +419,7 @@
 		FEEF25312264A80500202B28 /* OMEMOController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMEMOController.swift; sourceTree = "<group>"; };
 		FEEF25352266303A00202B28 /* OMEMOIdentititesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMEMOIdentititesTableView.swift; sourceTree = "<group>"; };
 		FEEF25382266528E00202B28 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
-		FEF5C3D82260893800889863 /* TigaseSwiftOMEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TigaseSwiftOMEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF5C3F922632C0000889863 /* OpenSSL_AES_GCM_Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSSL_AES_GCM_Engine.swift; sourceTree = "<group>"; };
-		FEF5C3FE22632CDE00889863 /* openssl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = openssl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF844732173B9DC0067B005 /* Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
 		FEF8BED1216A6761001DA755 /* InviteToGroupchatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteToGroupchatController.swift; sourceTree = "<group>"; };
 		FEF9CE1C2082765000B09B6C /* db-schema-1.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "db-schema-1.sql"; sourceTree = "<group>"; };
@@ -434,11 +442,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF5C3FF22632CDE00889863 /* openssl.framework in Frameworks */,
 				FE83E365217B0F89001DEF09 /* AVFoundation.framework in Frameworks */,
 				FEF9CE2220827F0000B09B6C /* libsqlite3.0.tbd in Frameworks */,
 				FE2DEDA023C5FC0F00AEF14F /* WebRTC.framework in Frameworks */,
-				FEB9EA2B2440912B00435937 /* TigaseSwiftOMEMO in Frameworks */,
+				BBCE1E0B3F25FCB53EE9505B /* Pods_BeagleIM.framework in Frameworks */,
+				647B65DA24F6A71B009436E2 /* TigaseSwiftOMEMO in Frameworks */,
+				647B65DD24F6A72C009436E2 /* TigaseSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +455,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8861FBE670BE111A172036B /* Pods_BeagleIMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,12 +463,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539157348DB52EAE8FA10AA6 /* Pods_BeagleIM_BeagleIMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CF70DE2F6BA95AF743BD560 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD73B17D7AC46E7616033B9E /* Pods-BeagleIM.debug.xcconfig */,
+				4F4D8E7EDF477817719E7485 /* Pods-BeagleIM.release.xcconfig */,
+				31CC19C4E3532F61F6E8ED35 /* Pods-BeagleIM-BeagleIMUITests.debug.xcconfig */,
+				267757AC5022F0BE039B0258 /* Pods-BeagleIM-BeagleIMUITests.release.xcconfig */,
+				308EA8B42E7A62EF22F1471F /* Pods-BeagleIMTests.debug.xcconfig */,
+				8FFDACCC546B75368948D3FE /* Pods-BeagleIMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FE149D8322A515B900EE4E03 /* historysearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -685,14 +709,13 @@
 			isa = PBXGroup;
 			children = (
 				FE2DED9E23C5FC0900AEF14F /* WebRTC.framework */,
-				FEF5C3FE22632CDE00889863 /* openssl.framework */,
-				FEF5C3D82260893800889863 /* TigaseSwiftOMEMO.framework */,
 				FE421B4821C92FBF0022DF77 /* LICENSE */,
 				FED2ECF22066B01C00F506A5 /* BeagleIM */,
 				FED2ED052066B01C00F506A5 /* BeagleIMTests */,
 				FED2ED102066B01C00F506A5 /* BeagleIMUITests */,
 				FED2ECF12066B01C00F506A5 /* Products */,
 				FEF9CE2020827F0000B09B6C /* Frameworks */,
+				8CF70DE2F6BA95AF743BD560 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -826,6 +849,9 @@
 				FEF9D12C2082808C00B09B6C /* libxml2.tbd */,
 				FEF9D12A2082804E00B09B6C /* TigaseSwift.framework */,
 				FEF9CE2120827F0000B09B6C /* libsqlite3.0.tbd */,
+				8B2D60243EA004D61234AC3D /* Pods_BeagleIM.framework */,
+				CD757E41230D68C02B7114AA /* Pods_BeagleIM_BeagleIMUITests.framework */,
+				B17F25231730D7AC4BB6654A /* Pods_BeagleIMTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -837,11 +863,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FED2ED162066B01C00F506A5 /* Build configuration list for PBXNativeTarget "BeagleIM" */;
 			buildPhases = (
+				279F4BA8420F6610891F9529 /* [CP] Check Pods Manifest.lock */,
 				FED2ECEC2066B01C00F506A5 /* Sources */,
 				FEB15617225FA973009B0709 /* ShellScript */,
 				FED2ECED2066B01C00F506A5 /* Frameworks */,
 				FED2ECEE2066B01C00F506A5 /* Resources */,
 				FE4E8DE22160E7AA0010D88E /* Embed Frameworks */,
+				78FB5B4EC02B28BE2379B7E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -849,7 +877,8 @@
 			);
 			name = BeagleIM;
 			packageProductDependencies = (
-				FEB9EA2A2440912B00435937 /* TigaseSwiftOMEMO */,
+				647B65D924F6A71B009436E2 /* TigaseSwiftOMEMO */,
+				647B65DC24F6A72C009436E2 /* TigaseSwift */,
 			);
 			productName = BeagleIM;
 			productReference = FED2ECF02066B01C00F506A5 /* BeagleIM.app */;
@@ -859,6 +888,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FED2ED192066B01C00F506A5 /* Build configuration list for PBXNativeTarget "BeagleIMTests" */;
 			buildPhases = (
+				98C3E61AC77B4C309C8D7944 /* [CP] Check Pods Manifest.lock */,
 				FED2ECFE2066B01C00F506A5 /* Sources */,
 				FED2ECFF2066B01C00F506A5 /* Frameworks */,
 				FED2ED002066B01C00F506A5 /* Resources */,
@@ -877,9 +907,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FED2ED1C2066B01C00F506A5 /* Build configuration list for PBXNativeTarget "BeagleIMUITests" */;
 			buildPhases = (
+				6FA97D303526DAF206A8C7FB /* [CP] Check Pods Manifest.lock */,
 				FED2ED092066B01C00F506A5 /* Sources */,
 				FED2ED0A2066B01C00F506A5 /* Frameworks */,
 				FED2ED0B2066B01C00F506A5 /* Resources */,
+				25B21ECAFD0E29FB445E6146 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -938,7 +970,8 @@
 			);
 			mainGroup = FED2ECE72066B01C00F506A5;
 			packageReferences = (
-				FEB9EA292440912B00435937 /* XCRemoteSwiftPackageReference "tigase-swift-omemo" */,
+				647B65D824F6A71B009436E2 /* XCRemoteSwiftPackageReference "tigase-swift-omemo" */,
+				647B65DB24F6A72C009436E2 /* XCRemoteSwiftPackageReference "tigase-swift" */,
 			);
 			productRefGroup = FED2ECF12066B01C00F506A5 /* Products */;
 			projectDirPath = "";
@@ -1003,6 +1036,106 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		25B21ECAFD0E29FB445E6146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeagleIM-BeagleIMUITests/Pods-BeagleIM-BeagleIMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeagleIM-BeagleIMUITests/Pods-BeagleIM-BeagleIMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeagleIM-BeagleIMUITests/Pods-BeagleIM-BeagleIMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		279F4BA8420F6610891F9529 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeagleIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA97D303526DAF206A8C7FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeagleIM-BeagleIMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FB5B4EC02B28BE2379B7E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeagleIM/Pods-BeagleIM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeagleIM/Pods-BeagleIM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeagleIM/Pods-BeagleIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C3E61AC77B4C309C8D7944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeagleIMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FEB15617225FA973009B0709 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1338,14 +1471,15 @@
 		};
 		FED2ED172066B01C00F506A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD73B17D7AC46E7616033B9E /* Pods-BeagleIM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BeagleIM/BeagleIM.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 101;
-				DEVELOPMENT_TEAM = YBEYW6E35C;
+				DEVELOPMENT_TEAM = YWS6MYD824;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1360,7 +1494,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 4.0;
 				OTHER_LDFLAGS = "-v";
-				PRODUCT_BUNDLE_IDENTIFIER = org.tigase.messenger.BeagleIM;
+				PRODUCT_BUNDLE_IDENTIFIER = org.vs.BeagleIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include/libxml2/** $(SRCROT)/jrtplib/**";
@@ -1371,14 +1505,15 @@
 		};
 		FED2ED182066B01C00F506A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4D8E7EDF477817719E7485 /* Pods-BeagleIM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BeagleIM/BeagleIM.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 101;
-				DEVELOPMENT_TEAM = YBEYW6E35C;
+				DEVELOPMENT_TEAM = YWS6MYD824;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1393,7 +1528,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 4.0;
 				OTHER_LDFLAGS = "-v";
-				PRODUCT_BUNDLE_IDENTIFIER = org.tigase.messenger.BeagleIM;
+				PRODUCT_BUNDLE_IDENTIFIER = org.vs.BeagleIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include/libxml2/** $(SRCROT)/jrtplib/**";
@@ -1404,6 +1539,7 @@
 		};
 		FED2ED1A2066B01C00F506A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308EA8B42E7A62EF22F1471F /* Pods-BeagleIMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1424,6 +1560,7 @@
 		};
 		FED2ED1B2066B01C00F506A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFDACCC546B75368948D3FE /* Pods-BeagleIMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1444,6 +1581,7 @@
 		};
 		FED2ED1D2066B01C00F506A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CC19C4E3532F61F6E8ED35 /* Pods-BeagleIM-BeagleIMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1463,6 +1601,7 @@
 		};
 		FED2ED1E2066B01C00F506A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267757AC5022F0BE039B0258 /* Pods-BeagleIM-BeagleIMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1522,9 +1661,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FEB9EA292440912B00435937 /* XCRemoteSwiftPackageReference "tigase-swift-omemo" */ = {
+		647B65D824F6A71B009436E2 /* XCRemoteSwiftPackageReference "tigase-swift-omemo" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/tigase/tigase-swift-omemo";
+			repositoryURL = "https://github.com/vikingosegundo/tigase-swift-omemo.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		647B65DB24F6A72C009436E2 /* XCRemoteSwiftPackageReference "tigase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vikingosegundo/tigase-swift.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -1533,10 +1680,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FEB9EA2A2440912B00435937 /* TigaseSwiftOMEMO */ = {
+		647B65D924F6A71B009436E2 /* TigaseSwiftOMEMO */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FEB9EA292440912B00435937 /* XCRemoteSwiftPackageReference "tigase-swift-omemo" */;
+			package = 647B65D824F6A71B009436E2 /* XCRemoteSwiftPackageReference "tigase-swift-omemo" */;
 			productName = TigaseSwiftOMEMO;
+		};
+		647B65DC24F6A72C009436E2 /* TigaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 647B65DB24F6A72C009436E2 /* XCRemoteSwiftPackageReference "tigase-swift" */;
+			productName = TigaseSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

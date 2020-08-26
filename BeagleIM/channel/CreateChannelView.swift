@@ -215,7 +215,7 @@ class CreateChannelView: NSView, OpenChannelViewControllerTabView, NSTextFieldDe
             mucModule.setRoomConfiguration(roomJid: JID(BareJID(localPart: roomName, domain: component.jid.domain)), configuration: form, completionHandler: { [weak self] result in
                 switch result {
                 case .success(_):
-                    _ = mucModule.join(roomName: roomName, mucServer: component.jid.domain, nickname: nickname, onJoined: { room in
+                    _ =  try? mucModule.join(roomName: roomName, mucServer: component.jid.domain, nickname: nickname, onJoined: { room in
                         if let vCardTempModule: VCardTempModule = client.modulesManager.getModule(VCardTempModule.ID) {
                             let vcard = VCard();
                             if let binval = avatar?.scaled(maxWidthOrHeight: 512.0, format: .jpeg, properties: [.compressionFactor: 0.8])?.base64EncodedString(options: []) {

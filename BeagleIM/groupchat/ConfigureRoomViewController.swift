@@ -212,7 +212,7 @@ class ConfigureRoomViewController: NSViewController {
                 if room?.state == Room.State.joined {
                     queue.isSuspended = false;
                 } else if nickname != nil {
-                    _ = mucModule.join(roomName: roomJid.localPart!, mucServer: roomJid.domain, nickname: nickname!, password: password, onJoined: { room in
+                    _ = try? mucModule.join(roomName: roomJid.localPart!, mucServer: roomJid.domain, nickname: nickname!, password: password, onJoined: { room in
                         queue.isSuspended = false;
                     });
                     PEPBookmarksModule.updateOrAdd(for: account, bookmark: Bookmarks.Conference(name: roomJid.localPart!, jid: JID(roomJid), autojoin: true, nick: nickname!, password: password));

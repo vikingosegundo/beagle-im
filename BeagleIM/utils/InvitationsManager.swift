@@ -125,7 +125,7 @@ class InvitationManager {
                     if response == NSApplication.ModalResponse.alertFirstButtonReturn {
                         let roomName = mucInvitation.roomJid.localPart!;
                         let nickname = AccountManager.getAccount(for: invitation.account)?.nickname ?? invitation.account.localPart!;
-                        _ = mucModule.join(roomName: roomName, mucServer: mucInvitation.roomJid.domain, nickname: nickname, password: mucInvitation.password);
+                        _ = try? mucModule.join(roomName: roomName, mucServer: mucInvitation.roomJid.domain, nickname: nickname, password: mucInvitation.password);
                         
                         PEPBookmarksModule.updateOrAdd(for: invitation.account, bookmark: Bookmarks.Conference(name: roomName, jid: JID(BareJID(localPart: roomName, domain: mucInvitation.roomJid.domain)), autojoin: true, nick: nickname, password: mucInvitation.password));
                     } else {
